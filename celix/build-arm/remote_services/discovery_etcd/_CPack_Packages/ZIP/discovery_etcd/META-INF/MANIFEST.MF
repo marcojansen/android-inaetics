@@ -1,0 +1,6 @@
+Bundle-SymbolicName: apache_celix_rsa_discovery_etcd
+Bundle-Name: Apache Celix RSA Discovery ETCD
+Bundle-Version: 0.0.1
+Manifest-Version: 1.0
+Bundle-Activator: discovery_etcd
+Private-Library: discovery_etcd

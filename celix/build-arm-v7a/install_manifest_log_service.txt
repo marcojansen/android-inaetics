@@ -1,0 +1,7 @@
+/home/marcojansen/workspace/crosscompiling/compiled/arm-v7a/celix/include/celix/log_service/log_service.h
+/home/marcojansen/workspace/crosscompiling/compiled/arm-v7a/celix/include/celix/log_service/log_reader_service.h
+/home/marcojansen/workspace/crosscompiling/compiled/arm-v7a/celix/include/celix/log_service/log_listener.h
+/home/marcojansen/workspace/crosscompiling/compiled/arm-v7a/celix/include/celix/log_service/log_entry.h
+/home/marcojansen/workspace/crosscompiling/compiled/arm-v7a/celix/include/celix/log_service/log_helper.h
+/home/marcojansen/workspace/crosscompiling/compiled/arm-v7a/celix/share/celix/log_service/log_helper.c
+/home/marcojansen/workspace/crosscompiling/compiled/arm-v7a/celix/share/celix/bundles/log_service.zip

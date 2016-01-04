@@ -1,0 +1,5 @@
+Bundle-SymbolicName: apache_celix_remoting_calculator_impl
+Bundle-Version: 0.0.1
+Manifest-Version: 1.0
+Bundle-Activator: calculator
+Private-Library: calculator

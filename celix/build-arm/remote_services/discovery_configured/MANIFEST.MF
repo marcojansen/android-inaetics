@@ -1,0 +1,6 @@
+Bundle-SymbolicName: apache_celix_rsa_discovery_configured
+Bundle-Name: Apache Celix RSA Configured Discovery
+Bundle-Version: 0.0.1
+Manifest-Version: 1.0
+Bundle-Activator: discovery_configured
+Private-Library: discovery_configured

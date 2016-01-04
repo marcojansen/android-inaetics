@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC -pthread -D_GNU_SOURCE -std=gnu99 -Wall  -g  -shared -Wl,-soname,libshell_tui.so -o libshell_tui.so CMakeFiles/shell_tui.dir/private/src/shell_tui.c.o ../framework/libcelix_framework.so ../utils/libcelix_utils.so -lm -lpthread -luuid -lz -lcurl 

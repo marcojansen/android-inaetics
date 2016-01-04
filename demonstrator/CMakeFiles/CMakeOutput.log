@@ -1,0 +1,379 @@
+The system is: Linux - 4.2.0-18-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/marcojansen/workspace/toolchain/bin/arm-linux-androideabi-gcc 
+Build flags: -march=armv7-a;-mfloat-abi=softfp;-mfpu=vfpv3-d16
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/3.2.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3202065727/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3202065727.dir/build.make CMakeFiles/cmTryCompileExec3202065727.dir/build
+make[1]: Map '/home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp' wordt binnengegaan
+/usr/bin/cmake -E cmake_progress_report /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3202065727.dir/testCCompiler.c.o
+/home/marcojansen/workspace/toolchain/bin/arm-linux-androideabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16     -o CMakeFiles/cmTryCompileExec3202065727.dir/testCCompiler.c.o   -c /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3202065727
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3202065727.dir/link.txt --verbose=1
+/home/marcojansen/workspace/toolchain/bin/arm-linux-androideabi-gcc  -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16      CMakeFiles/cmTryCompileExec3202065727.dir/testCCompiler.c.o  -o cmTryCompileExec3202065727 -rdynamic 
+make[1]: Map '/home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp' wordt verlaten
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec987616363/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec987616363.dir/build.make CMakeFiles/cmTryCompileExec987616363.dir/build
+make[1]: Map '/home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp' wordt binnengegaan
+/usr/bin/cmake -E cmake_progress_report /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec987616363.dir/CMakeCCompilerABI.c.o
+/home/marcojansen/workspace/toolchain/bin/arm-linux-androideabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16     -o CMakeFiles/cmTryCompileExec987616363.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec987616363
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec987616363.dir/link.txt --verbose=1
+/home/marcojansen/workspace/toolchain/bin/arm-linux-androideabi-gcc  -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16     -v CMakeFiles/cmTryCompileExec987616363.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec987616363 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/home/marcojansen/workspace/toolchain/bin/arm-linux-androideabi-gcc
+COLLECT_LTO_WRAPPER=/home/marcojansen/workspace/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/lto-wrapper
+Target: arm-linux-androideabi
+Configured with: /s/ndk-toolchain/src/build/../gcc/gcc-4.9/configure --prefix=/tmp/ndk-andrewhsieh/build/toolchain/prefix --target=arm-linux-androideabi --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/tmp/ndk-andrewhsieh/build/toolchain/temp-install --with-mpfr=/tmp/ndk-andrewhsieh/build/toolchain/temp-install --with-mpc=/tmp/ndk-andrewhsieh/build/toolchain/temp-install --with-cloog=/tmp/ndk-andrewhsieh/build/toolchain/temp-install --with-isl=/tmp/ndk-andrewhsieh/build/toolchain/temp-install --with-ppl=/tmp/ndk-andrewhsieh/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-initfini-array --disable-nls --prefix=/tmp/ndk-andrewhsieh/build/toolchain/prefix --with-sysroot=/tmp/ndk-andrewhsieh/build/toolchain/prefix/sysroot --with-binutils-version=2.25 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=7.7 --with-python=/usr/local/google/home/andrewhsieh/mydroid/ndk/prebuilt/linux-x86_64/bin/python-config.sh --with-gxx-include-dir=/tmp/ndk-andrewhsieh/build/toolchain/prefix/include/c++/4.9 --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-graphite=yes --with-cloog-version=0.18.0 --with-isl-version=0.11.1 --enable-eh-frame-hdr-for-static --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default
+Thread model: posix
+gcc version 4.9 20140827 (prerelease) (GCC) 
+COMPILER_PATH=/home/marcojansen/workspace/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/:/home/marcojansen/workspace/toolchain/bin/../libexec/gcc/:/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/bin/
+LIBRARY_PATH=/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/armv7-a/:/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib/armv7-a/:/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/:/home/marcojansen/workspace/toolchain/bin/../lib/gcc/:/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib/:/home/marcojansen/workspace/toolchain/bin/../sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-v' '-o' 'cmTryCompileExec987616363' '-rdynamic' '-mtls-dialect=gnu'
+ /home/marcojansen/workspace/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/collect2 -plugin /home/marcojansen/workspace/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/liblto_plugin.so -plugin-opt=/home/marcojansen/workspace/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccL7Gy5h.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/marcojansen/workspace/toolchain/bin/../sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -o cmTryCompileExec987616363 /home/marcojansen/workspace/toolchain/bin/../sysroot/usr/lib/crtbegin_dynamic.o -L/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/armv7-a -L/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib/armv7-a -L/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9 -L/home/marcojansen/workspace/toolchain/bin/../lib/gcc -L/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib -L/home/marcojansen/workspace/toolchain/bin/../sysroot/usr/lib CMakeFiles/cmTryCompileExec987616363.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /home/marcojansen/workspace/toolchain/bin/../sysroot/usr/lib/crtend_android.o
+make[1]: Map '/home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp' wordt verlaten
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec987616363/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec987616363.dir/build.make CMakeFiles/cmTryCompileExec987616363.dir/build]
+  ignore line: [make[1]: Map '/home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp' wordt binnengegaan]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec987616363.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/marcojansen/workspace/toolchain/bin/arm-linux-androideabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16     -o CMakeFiles/cmTryCompileExec987616363.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec987616363]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec987616363.dir/link.txt --verbose=1]
+  ignore line: [/home/marcojansen/workspace/toolchain/bin/arm-linux-androideabi-gcc  -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16     -v CMakeFiles/cmTryCompileExec987616363.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec987616363 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/marcojansen/workspace/toolchain/bin/arm-linux-androideabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/marcojansen/workspace/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/lto-wrapper]
+  ignore line: [Target: arm-linux-androideabi]
+  ignore line: [Configured with: /s/ndk-toolchain/src/build/../gcc/gcc-4.9/configure --prefix=/tmp/ndk-andrewhsieh/build/toolchain/prefix --target=arm-linux-androideabi --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/tmp/ndk-andrewhsieh/build/toolchain/temp-install --with-mpfr=/tmp/ndk-andrewhsieh/build/toolchain/temp-install --with-mpc=/tmp/ndk-andrewhsieh/build/toolchain/temp-install --with-cloog=/tmp/ndk-andrewhsieh/build/toolchain/temp-install --with-isl=/tmp/ndk-andrewhsieh/build/toolchain/temp-install --with-ppl=/tmp/ndk-andrewhsieh/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-initfini-array --disable-nls --prefix=/tmp/ndk-andrewhsieh/build/toolchain/prefix --with-sysroot=/tmp/ndk-andrewhsieh/build/toolchain/prefix/sysroot --with-binutils-version=2.25 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=7.7 --with-python=/usr/local/google/home/andrewhsieh/mydroid/ndk/prebuilt/linux-x86_64/bin/python-config.sh --with-gxx-include-dir=/tmp/ndk-andrewhsieh/build/toolchain/prefix/include/c++/4.9 --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-graphite=yes --with-cloog-version=0.18.0 --with-isl-version=0.11.1 --enable-eh-frame-hdr-for-static --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9 20140827 (prerelease) (GCC) ]
+  ignore line: [COMPILER_PATH=/home/marcojansen/workspace/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/:/home/marcojansen/workspace/toolchain/bin/../libexec/gcc/:/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/armv7-a/:/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib/armv7-a/:/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/:/home/marcojansen/workspace/toolchain/bin/../lib/gcc/:/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib/:/home/marcojansen/workspace/toolchain/bin/../sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-v' '-o' 'cmTryCompileExec987616363' '-rdynamic' '-mtls-dialect=gnu']
+  link line: [ /home/marcojansen/workspace/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/collect2 -plugin /home/marcojansen/workspace/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/liblto_plugin.so -plugin-opt=/home/marcojansen/workspace/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccL7Gy5h.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/marcojansen/workspace/toolchain/bin/../sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -o cmTryCompileExec987616363 /home/marcojansen/workspace/toolchain/bin/../sysroot/usr/lib/crtbegin_dynamic.o -L/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/armv7-a -L/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib/armv7-a -L/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9 -L/home/marcojansen/workspace/toolchain/bin/../lib/gcc -L/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib -L/home/marcojansen/workspace/toolchain/bin/../sysroot/usr/lib CMakeFiles/cmTryCompileExec987616363.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /home/marcojansen/workspace/toolchain/bin/../sysroot/usr/lib/crtend_android.o]
+    arg [/home/marcojansen/workspace/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/marcojansen/workspace/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/marcojansen/workspace/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccL7Gy5h.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-ldl] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/marcojansen/workspace/toolchain/bin/../sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec987616363] ==> ignore
+    arg [/home/marcojansen/workspace/toolchain/bin/../sysroot/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/armv7-a] ==> dir [/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/armv7-a]
+    arg [-L/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib/armv7-a] ==> dir [/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib/armv7-a]
+    arg [-L/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9] ==> dir [/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9]
+    arg [-L/home/marcojansen/workspace/toolchain/bin/../lib/gcc] ==> dir [/home/marcojansen/workspace/toolchain/bin/../lib/gcc]
+    arg [-L/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib] ==> dir [/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib]
+    arg [-L/home/marcojansen/workspace/toolchain/bin/../sysroot/usr/lib] ==> dir [/home/marcojansen/workspace/toolchain/bin/../sysroot/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec987616363.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-ldl] ==> lib [dl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/marcojansen/workspace/toolchain/bin/../sysroot/usr/lib/crtend_android.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/armv7-a] ==> [/home/marcojansen/workspace/toolchain/lib/gcc/arm-linux-androideabi/4.9/armv7-a]
+  collapse library dir [/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib/armv7-a] ==> [/home/marcojansen/workspace/toolchain/arm-linux-androideabi/lib/armv7-a]
+  collapse library dir [/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9] ==> [/home/marcojansen/workspace/toolchain/lib/gcc/arm-linux-androideabi/4.9]
+  collapse library dir [/home/marcojansen/workspace/toolchain/bin/../lib/gcc] ==> [/home/marcojansen/workspace/toolchain/lib/gcc]
+  collapse library dir [/home/marcojansen/workspace/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib] ==> [/home/marcojansen/workspace/toolchain/arm-linux-androideabi/lib]
+  collapse library dir [/home/marcojansen/workspace/toolchain/bin/../sysroot/usr/lib] ==> [/home/marcojansen/workspace/toolchain/sysroot/usr/lib]
+  implicit libs: [c;dl]
+  implicit dirs: [/home/marcojansen/workspace/toolchain/lib/gcc/arm-linux-androideabi/4.9/armv7-a;/home/marcojansen/workspace/toolchain/arm-linux-androideabi/lib/armv7-a;/home/marcojansen/workspace/toolchain/lib/gcc/arm-linux-androideabi/4.9;/home/marcojansen/workspace/toolchain/lib/gcc;/home/marcojansen/workspace/toolchain/arm-linux-androideabi/lib;/home/marcojansen/workspace/toolchain/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1173836266/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1173836266.dir/build.make CMakeFiles/cmTryCompileExec1173836266.dir/build
+make[1]: Map '/home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp' wordt binnengegaan
+/usr/bin/cmake -E cmake_progress_report /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1173836266.dir/feature_tests.c.o
+/home/marcojansen/workspace/toolchain/bin/arm-linux-androideabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16     -std=c11 -o CMakeFiles/cmTryCompileExec1173836266.dir/feature_tests.c.o   -c /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec1173836266
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1173836266.dir/link.txt --verbose=1
+/home/marcojansen/workspace/toolchain/bin/arm-linux-androideabi-gcc  -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16      CMakeFiles/cmTryCompileExec1173836266.dir/feature_tests.c.o  -o cmTryCompileExec1173836266 -rdynamic 
+make[1]: Map '/home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp' wordt verlaten
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3875361157/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3875361157.dir/build.make CMakeFiles/cmTryCompileExec3875361157.dir/build
+make[1]: Map '/home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp' wordt binnengegaan
+/usr/bin/cmake -E cmake_progress_report /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3875361157.dir/feature_tests.c.o
+/home/marcojansen/workspace/toolchain/bin/arm-linux-androideabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16     -std=c99 -o CMakeFiles/cmTryCompileExec3875361157.dir/feature_tests.c.o   -c /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec3875361157
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3875361157.dir/link.txt --verbose=1
+/home/marcojansen/workspace/toolchain/bin/arm-linux-androideabi-gcc  -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16      CMakeFiles/cmTryCompileExec3875361157.dir/feature_tests.c.o  -o cmTryCompileExec3875361157 -rdynamic 
+make[1]: Map '/home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp' wordt verlaten
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec171411729/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec171411729.dir/build.make CMakeFiles/cmTryCompileExec171411729.dir/build
+make[1]: Map '/home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp' wordt binnengegaan
+/usr/bin/cmake -E cmake_progress_report /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec171411729.dir/feature_tests.c.o
+/home/marcojansen/workspace/toolchain/bin/arm-linux-androideabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16     -std=c90 -o CMakeFiles/cmTryCompileExec171411729.dir/feature_tests.c.o   -c /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec171411729
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec171411729.dir/link.txt --verbose=1
+/home/marcojansen/workspace/toolchain/bin/arm-linux-androideabi-gcc  -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16      CMakeFiles/cmTryCompileExec171411729.dir/feature_tests.c.o  -o cmTryCompileExec171411729 -rdynamic 
+make[1]: Map '/home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp' wordt verlaten
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/marcojansen/workspace/crosscompiling/toolchain/bin/arm-linux-androideabi-gcc 
+Build flags: -march=armv7-a;-mfloat-abi=softfp;-mfpu=vfpv3-d16;
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/3.2.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec802904060/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec802904060.dir/build.make CMakeFiles/cmTryCompileExec802904060.dir/build
+make[1]: Map '/home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp' wordt binnengegaan
+/usr/bin/cmake -E cmake_progress_report /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec802904060.dir/testCCompiler.c.o
+/home/marcojansen/workspace/crosscompiling/toolchain/bin/arm-linux-androideabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16     -o CMakeFiles/cmTryCompileExec802904060.dir/testCCompiler.c.o   -c /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec802904060
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec802904060.dir/link.txt --verbose=1
+/home/marcojansen/workspace/crosscompiling/toolchain/bin/arm-linux-androideabi-gcc  -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16      CMakeFiles/cmTryCompileExec802904060.dir/testCCompiler.c.o  -o cmTryCompileExec802904060 -rdynamic 
+make[1]: Map '/home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp' wordt verlaten
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2082492364/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2082492364.dir/build.make CMakeFiles/cmTryCompileExec2082492364.dir/build
+make[1]: Map '/home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp' wordt binnengegaan
+/usr/bin/cmake -E cmake_progress_report /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2082492364.dir/CMakeCCompilerABI.c.o
+/home/marcojansen/workspace/crosscompiling/toolchain/bin/arm-linux-androideabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16     -o CMakeFiles/cmTryCompileExec2082492364.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec2082492364
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2082492364.dir/link.txt --verbose=1
+/home/marcojansen/workspace/crosscompiling/toolchain/bin/arm-linux-androideabi-gcc  -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16     -v CMakeFiles/cmTryCompileExec2082492364.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2082492364 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/home/marcojansen/workspace/crosscompiling/toolchain/bin/arm-linux-androideabi-gcc
+COLLECT_LTO_WRAPPER=/home/marcojansen/workspace/crosscompiling/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/lto-wrapper
+Target: arm-linux-androideabi
+Configured with: /s/ndk-toolchain/src/build/../gcc/gcc-4.9/configure --prefix=/tmp/ndk-andrewhsieh/build/toolchain/prefix --target=arm-linux-androideabi --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/tmp/ndk-andrewhsieh/build/toolchain/temp-install --with-mpfr=/tmp/ndk-andrewhsieh/build/toolchain/temp-install --with-mpc=/tmp/ndk-andrewhsieh/build/toolchain/temp-install --with-cloog=/tmp/ndk-andrewhsieh/build/toolchain/temp-install --with-isl=/tmp/ndk-andrewhsieh/build/toolchain/temp-install --with-ppl=/tmp/ndk-andrewhsieh/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-initfini-array --disable-nls --prefix=/tmp/ndk-andrewhsieh/build/toolchain/prefix --with-sysroot=/tmp/ndk-andrewhsieh/build/toolchain/prefix/sysroot --with-binutils-version=2.25 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=7.7 --with-python=/usr/local/google/home/andrewhsieh/mydroid/ndk/prebuilt/linux-x86_64/bin/python-config.sh --with-gxx-include-dir=/tmp/ndk-andrewhsieh/build/toolchain/prefix/include/c++/4.9 --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-graphite=yes --with-cloog-version=0.18.0 --with-isl-version=0.11.1 --enable-eh-frame-hdr-for-static --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default
+Thread model: posix
+gcc version 4.9 20140827 (prerelease) (GCC) 
+COMPILER_PATH=/home/marcojansen/workspace/crosscompiling/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/:/home/marcojansen/workspace/crosscompiling/toolchain/bin/../libexec/gcc/:/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/bin/
+LIBRARY_PATH=/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/armv7-a/:/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib/armv7-a/:/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/:/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/:/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib/:/home/marcojansen/workspace/crosscompiling/toolchain/bin/../sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-v' '-o' 'cmTryCompileExec2082492364' '-rdynamic' '-mtls-dialect=gnu'
+ /home/marcojansen/workspace/crosscompiling/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/collect2 -plugin /home/marcojansen/workspace/crosscompiling/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/liblto_plugin.so -plugin-opt=/home/marcojansen/workspace/crosscompiling/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7V2XDX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/marcojansen/workspace/crosscompiling/toolchain/bin/../sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -o cmTryCompileExec2082492364 /home/marcojansen/workspace/crosscompiling/toolchain/bin/../sysroot/usr/lib/crtbegin_dynamic.o -L/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/armv7-a -L/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib/armv7-a -L/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9 -L/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc -L/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib -L/home/marcojansen/workspace/crosscompiling/toolchain/bin/../sysroot/usr/lib CMakeFiles/cmTryCompileExec2082492364.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /home/marcojansen/workspace/crosscompiling/toolchain/bin/../sysroot/usr/lib/crtend_android.o
+make[1]: Map '/home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp' wordt verlaten
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2082492364/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2082492364.dir/build.make CMakeFiles/cmTryCompileExec2082492364.dir/build]
+  ignore line: [make[1]: Map '/home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp' wordt binnengegaan]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2082492364.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/marcojansen/workspace/crosscompiling/toolchain/bin/arm-linux-androideabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16     -o CMakeFiles/cmTryCompileExec2082492364.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec2082492364]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2082492364.dir/link.txt --verbose=1]
+  ignore line: [/home/marcojansen/workspace/crosscompiling/toolchain/bin/arm-linux-androideabi-gcc  -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16     -v CMakeFiles/cmTryCompileExec2082492364.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2082492364 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/marcojansen/workspace/crosscompiling/toolchain/bin/arm-linux-androideabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/marcojansen/workspace/crosscompiling/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/lto-wrapper]
+  ignore line: [Target: arm-linux-androideabi]
+  ignore line: [Configured with: /s/ndk-toolchain/src/build/../gcc/gcc-4.9/configure --prefix=/tmp/ndk-andrewhsieh/build/toolchain/prefix --target=arm-linux-androideabi --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/tmp/ndk-andrewhsieh/build/toolchain/temp-install --with-mpfr=/tmp/ndk-andrewhsieh/build/toolchain/temp-install --with-mpc=/tmp/ndk-andrewhsieh/build/toolchain/temp-install --with-cloog=/tmp/ndk-andrewhsieh/build/toolchain/temp-install --with-isl=/tmp/ndk-andrewhsieh/build/toolchain/temp-install --with-ppl=/tmp/ndk-andrewhsieh/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-initfini-array --disable-nls --prefix=/tmp/ndk-andrewhsieh/build/toolchain/prefix --with-sysroot=/tmp/ndk-andrewhsieh/build/toolchain/prefix/sysroot --with-binutils-version=2.25 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=7.7 --with-python=/usr/local/google/home/andrewhsieh/mydroid/ndk/prebuilt/linux-x86_64/bin/python-config.sh --with-gxx-include-dir=/tmp/ndk-andrewhsieh/build/toolchain/prefix/include/c++/4.9 --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-graphite=yes --with-cloog-version=0.18.0 --with-isl-version=0.11.1 --enable-eh-frame-hdr-for-static --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9 20140827 (prerelease) (GCC) ]
+  ignore line: [COMPILER_PATH=/home/marcojansen/workspace/crosscompiling/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/:/home/marcojansen/workspace/crosscompiling/toolchain/bin/../libexec/gcc/:/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/armv7-a/:/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib/armv7-a/:/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/:/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/:/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib/:/home/marcojansen/workspace/crosscompiling/toolchain/bin/../sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-v' '-o' 'cmTryCompileExec2082492364' '-rdynamic' '-mtls-dialect=gnu']
+  link line: [ /home/marcojansen/workspace/crosscompiling/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/collect2 -plugin /home/marcojansen/workspace/crosscompiling/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/liblto_plugin.so -plugin-opt=/home/marcojansen/workspace/crosscompiling/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7V2XDX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/marcojansen/workspace/crosscompiling/toolchain/bin/../sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -o cmTryCompileExec2082492364 /home/marcojansen/workspace/crosscompiling/toolchain/bin/../sysroot/usr/lib/crtbegin_dynamic.o -L/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/armv7-a -L/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib/armv7-a -L/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9 -L/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc -L/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib -L/home/marcojansen/workspace/crosscompiling/toolchain/bin/../sysroot/usr/lib CMakeFiles/cmTryCompileExec2082492364.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /home/marcojansen/workspace/crosscompiling/toolchain/bin/../sysroot/usr/lib/crtend_android.o]
+    arg [/home/marcojansen/workspace/crosscompiling/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/marcojansen/workspace/crosscompiling/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/marcojansen/workspace/crosscompiling/toolchain/bin/../libexec/gcc/arm-linux-androideabi/4.9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc7V2XDX.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-ldl] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/marcojansen/workspace/crosscompiling/toolchain/bin/../sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2082492364] ==> ignore
+    arg [/home/marcojansen/workspace/crosscompiling/toolchain/bin/../sysroot/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/armv7-a] ==> dir [/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/armv7-a]
+    arg [-L/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib/armv7-a] ==> dir [/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib/armv7-a]
+    arg [-L/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9] ==> dir [/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9]
+    arg [-L/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc] ==> dir [/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc]
+    arg [-L/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib] ==> dir [/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib]
+    arg [-L/home/marcojansen/workspace/crosscompiling/toolchain/bin/../sysroot/usr/lib] ==> dir [/home/marcojansen/workspace/crosscompiling/toolchain/bin/../sysroot/usr/lib]
+    arg [CMakeFiles/cmTryCompileExec2082492364.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-ldl] ==> lib [dl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/marcojansen/workspace/crosscompiling/toolchain/bin/../sysroot/usr/lib/crtend_android.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/armv7-a] ==> [/home/marcojansen/workspace/crosscompiling/toolchain/lib/gcc/arm-linux-androideabi/4.9/armv7-a]
+  collapse library dir [/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib/armv7-a] ==> [/home/marcojansen/workspace/crosscompiling/toolchain/arm-linux-androideabi/lib/armv7-a]
+  collapse library dir [/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9] ==> [/home/marcojansen/workspace/crosscompiling/toolchain/lib/gcc/arm-linux-androideabi/4.9]
+  collapse library dir [/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc] ==> [/home/marcojansen/workspace/crosscompiling/toolchain/lib/gcc]
+  collapse library dir [/home/marcojansen/workspace/crosscompiling/toolchain/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/lib] ==> [/home/marcojansen/workspace/crosscompiling/toolchain/arm-linux-androideabi/lib]
+  collapse library dir [/home/marcojansen/workspace/crosscompiling/toolchain/bin/../sysroot/usr/lib] ==> [/home/marcojansen/workspace/crosscompiling/toolchain/sysroot/usr/lib]
+  implicit libs: [c;dl]
+  implicit dirs: [/home/marcojansen/workspace/crosscompiling/toolchain/lib/gcc/arm-linux-androideabi/4.9/armv7-a;/home/marcojansen/workspace/crosscompiling/toolchain/arm-linux-androideabi/lib/armv7-a;/home/marcojansen/workspace/crosscompiling/toolchain/lib/gcc/arm-linux-androideabi/4.9;/home/marcojansen/workspace/crosscompiling/toolchain/lib/gcc;/home/marcojansen/workspace/crosscompiling/toolchain/arm-linux-androideabi/lib;/home/marcojansen/workspace/crosscompiling/toolchain/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3132411855/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3132411855.dir/build.make CMakeFiles/cmTryCompileExec3132411855.dir/build
+make[1]: Map '/home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp' wordt binnengegaan
+/usr/bin/cmake -E cmake_progress_report /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3132411855.dir/feature_tests.c.o
+/home/marcojansen/workspace/crosscompiling/toolchain/bin/arm-linux-androideabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16     -std=c11 -o CMakeFiles/cmTryCompileExec3132411855.dir/feature_tests.c.o   -c /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec3132411855
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3132411855.dir/link.txt --verbose=1
+/home/marcojansen/workspace/crosscompiling/toolchain/bin/arm-linux-androideabi-gcc  -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16      CMakeFiles/cmTryCompileExec3132411855.dir/feature_tests.c.o  -o cmTryCompileExec3132411855 -rdynamic 
+make[1]: Map '/home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp' wordt verlaten
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec433457046/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec433457046.dir/build.make CMakeFiles/cmTryCompileExec433457046.dir/build
+make[1]: Map '/home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp' wordt binnengegaan
+/usr/bin/cmake -E cmake_progress_report /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec433457046.dir/feature_tests.c.o
+/home/marcojansen/workspace/crosscompiling/toolchain/bin/arm-linux-androideabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16     -std=c99 -o CMakeFiles/cmTryCompileExec433457046.dir/feature_tests.c.o   -c /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec433457046
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec433457046.dir/link.txt --verbose=1
+/home/marcojansen/workspace/crosscompiling/toolchain/bin/arm-linux-androideabi-gcc  -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16      CMakeFiles/cmTryCompileExec433457046.dir/feature_tests.c.o  -o cmTryCompileExec433457046 -rdynamic 
+make[1]: Map '/home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp' wordt verlaten
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2841618984/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2841618984.dir/build.make CMakeFiles/cmTryCompileExec2841618984.dir/build
+make[1]: Map '/home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp' wordt binnengegaan
+/usr/bin/cmake -E cmake_progress_report /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2841618984.dir/feature_tests.c.o
+/home/marcojansen/workspace/crosscompiling/toolchain/bin/arm-linux-androideabi-gcc   -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16     -std=c90 -o CMakeFiles/cmTryCompileExec2841618984.dir/feature_tests.c.o   -c /home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec2841618984
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2841618984.dir/link.txt --verbose=1
+/home/marcojansen/workspace/crosscompiling/toolchain/bin/arm-linux-androideabi-gcc  -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16      CMakeFiles/cmTryCompileExec2841618984.dir/feature_tests.c.o  -o cmTryCompileExec2841618984 -rdynamic 
+make[1]: Map '/home/marcojansen/workspace/crosscompiling/demonstrator/CMakeFiles/CMakeTmp' wordt verlaten
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros

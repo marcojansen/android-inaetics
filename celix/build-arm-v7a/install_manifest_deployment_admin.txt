@@ -1,0 +1,2 @@
+/home/marcojansen/workspace/crosscompiling/compiled/arm-v7a/celix/include/celix/deployment_admin/resource_processor.h
+/home/marcojansen/workspace/crosscompiling/compiled/arm-v7a/celix/share/celix/bundles/deployment_admin.zip

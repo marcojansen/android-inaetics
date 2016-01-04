@@ -1,0 +1,6 @@
+add_subdirectory(producer)
+add_subdirectory(sample_queue)
+add_subdirectory(processor)
+add_subdirectory(data_store)
+add_subdirectory(statistic_tracker)
+#add_subdirectory(shake_detection_android)

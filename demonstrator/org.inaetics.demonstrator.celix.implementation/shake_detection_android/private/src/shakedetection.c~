@@ -1,0 +1,127 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+#include <android/sensor.h>
+#include <android/looper.h>
+
+#include "service_reference.h"
+#include "inaetics_demonstrator_api/producer.h"
+#include "utils.h"
+#include "hash_map.h"
+
+#define REFRESH_SAMPLE_RATE 0.6
+#define MIN_SHAKE_SPEED 10
+#define MAX_SAMPLE_RATE 30
+#define MIN_SAMPLE_RATE 5
+#define MIN_CHANGE 3
+struct shakedetector {
+    char* name;
+    bool running;
+    producer_service_pt producerService;
+}
+
+int run = 1;
+pthread_t sensorThread;
+
+celix_status_t shakedetection_create(char* name, shakedetector_pt* shakedetector)
+{
+    celix_status_t status = CELIX_SUCCESS;
+    shakedetector_pt shaker = calloc(1,sizeof(*shaker));
+    if (shaker != NULL) {
+        shaker->name = strdup(name);
+	shaker->running = false;
+	shaker->producerService = NULL;
+    } else {
+        status = CELIX_ENOMEM;
+    }
+    return status;
+} 
+
+void shakedetection_useSensors(producer_service_pt producerService)
+{
+    printf("Shakedetection started");
+    ASensorEventQueue* sensorEventQueue;
+    ASensorManager* sensorManager;
+    const ASensor* accSensor;
+    ALooper* looper = ALooper_forThread();
+    if (looper == NULL) {
+        looper = ALooper_prepare(ALOOPER_PREPARE_ALLOW_NON_CALLBACKS);
+    }
+    sensorManager = ASensorManager_getInstance();
+    accSensor = ASensorManager_getDefaultSensor(sensorManager, ASENSOR_TYPE_ACCELEROMETER);
+    sensorEventQueue = ASensorManager_createEventQueue(sensorManager, looper, 1,NULL, NULL );
+    ASensorEventQueue_enableSensor(sensorEventQueue, accSensor);
+    ASensorEventQueue_setEventRate(sensorEventQueue, accSensor, (1000L/10)*1000);
+    ASensorEvent event;
+    int prevx, prevy, prevz, sampleRate = 20, prevSampleRate, counter;
+    float totalSpeed;
+    time_t start,end;
+
+    time (&start);
+    while (run) {
+        while (ASensorEventQueue_getEvents(sensorEventQueue, &event, 1) > 0) {
+            if (event.type == ASENSOR_TYPE_ACCELEROMETER) {
+            	float x,y,z;
+                x = event.acceleration.x;
+                y = event.acceleration.y;
+                z = event.acceleration.z;
+		float speed = abs(x+y+z - prevx - prevy - prevz);
+		totalSpeed+= speed;
+		prevx = x;
+		prevy = y;
+		prevz = z;
+		++counter;
+            }
+	    time (&end);
+	    if (difftime (end,start) >= REFRESH_SAMPLE_RATE) {
+		float averageSpeed = totalSpeed / counter;
+		totalSpeed = 0; counter = 0;
+		if (averageSpeed > MIN_SHAKE_SPEED) {
+		    sampleRate += 3;
+		} else if (averageSpeed < MIN_SHAKE_SPEED) {
+		    sampleRate -= 1;
+		}
+		if ( sampleRate < MIN_SAMPLE_RATE) {
+		    sampleRate = MIN_SAMPLE_RATE;
+		} else if( sampleRate > MAX_SAMPLE_RATE) {
+		    sampleRate = MAX_SAMPLE_RATE;
+		}
+
+		if (abs(prevSampleRate - sampleRate) >= MIN_CHANGE || (prevSampleRate != sampleRate && (sampleRate == MIN_SAMPLE_RATE || sampleRate == MAX_SAMPLE_RATE))) {
+		    producerService->setSampleRate(producerService->producer, sampleRate);
+		    prevSampleRate = sampleRate;
+		}
+		
+		time (&start);
+	    }
+
+        }
+    }
+}
+
+celix_status_t shakedetection_producerAdded(void *handle, service_reference_pt reference, void *service)
+{
+    producer_service_pt producerService = (producer_service_pt)service;
+    pthread_create(&sensorThread, NULL, shakedetection_useSensors, producerService);
+    return CELIX_SUCCESS;
+}
+
+void shakedetection_producerRemoved(void *handle, service_reference_pt reference, void *service)
+{
+    shakedetector->producerService = NULL;
+    shakedetector->running = false;
+}
+
+celix_status_t shakedetection_stop(shakedetector_pt shakedet);
+{
+    printf("SHAKEDETECTION: Stopping Shakedetection.\n");
+    shakedetector->running = false;
+    if (shakedetector->name != NULL) {
+	free(shakedetector->name);
+    }
+    free(shakedetector);
+    return CELIX_SUCCESS;
+}
+
+

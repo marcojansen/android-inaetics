@@ -1,0 +1,6 @@
+Bundle-SymbolicName: apache_celix_remote_service_admin_dfi
+Bundle-Name: Apache Celix Remote Service Admin Dynamic Function Interface (DFI)
+Bundle-Version: 0.0.1
+Manifest-Version: 1.0
+Bundle-Activator: remote_service_admin_dfi
+Private-Library: remote_service_admin_dfi

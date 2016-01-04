@@ -1,0 +1,6 @@
+Bundle-SymbolicName: apache_celix_shell
+Bundle-Name: Apache Celix Shell
+Bundle-Version: 1.0.0
+Manifest-Version: 1.0
+Bundle-Activator: shell
+Private-Library: shell

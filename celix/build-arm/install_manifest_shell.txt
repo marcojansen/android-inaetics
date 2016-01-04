@@ -1,0 +1,3 @@
+/home/marcojansen/workspace/crosscompiling/compiled/arm/celix/include/celix/shell/shell.h
+/home/marcojansen/workspace/crosscompiling/compiled/arm/celix/include/celix/shell/command.h
+/home/marcojansen/workspace/crosscompiling/compiled/arm/celix/share/celix/bundles/shell.zip

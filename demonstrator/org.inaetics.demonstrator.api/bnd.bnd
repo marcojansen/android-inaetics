@@ -1,0 +1,5 @@
+-buildpath:  \
+	biz.aQute.bnd.annotation,\
+	${junit}
+-sub:  \
+	*.bnd

@@ -1,0 +1,7 @@
+// Cmake system and system name
+#cmakedefine CMAKE_SYSTEM @CMAKE_SYSTEM@
+#cmakedefine CMAKE_SYSTEM_NAME @CMAKE_SYSTEM_NAME@
+
+// Is ifaddrs.h avaiable on the system?
+#cmakedefine HAVE_IFADDRS_H 1
+

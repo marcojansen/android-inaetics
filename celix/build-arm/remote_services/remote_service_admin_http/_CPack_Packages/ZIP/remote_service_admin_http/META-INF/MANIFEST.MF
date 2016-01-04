@@ -1,0 +1,6 @@
+Bundle-SymbolicName: apache_celix_remote_service_admin_http
+Bundle-Name: Apache Celix Remote Service Admin HTTP
+Bundle-Version: 0.0.1
+Manifest-Version: 1.0
+Bundle-Activator: remote_service_admin_http
+Private-Library: remote_service_admin_http

@@ -1,0 +1,1 @@
+/home/marcojansen/workspace/crosscompiling/compiled/arm-v7a/celix/share/celix/bundles/shell_tui.zip
