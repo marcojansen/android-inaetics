@@ -1,6 +1,0 @@
-Bundle-SymbolicName: apache_celix_dm_shell
-Bundle-Version: 0.0.1
-Bundle-Name: Apache Celix DM Shell commands
-Manifest-Version: 1.0
-Bundle-Activator: dm_shell
-Private-Library: dm_shell

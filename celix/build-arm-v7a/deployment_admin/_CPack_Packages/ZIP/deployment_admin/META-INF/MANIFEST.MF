@@ -1,6 +1,0 @@
-Bundle-SymbolicName: apache_celix_deployment_admin
-Bundle-Name: Apache Celix Deployment Admin
-Bundle-Version: 0.0.1
-Manifest-Version: 1.0
-Bundle-Activator: deployment_admin
-Private-Library: deployment_admin

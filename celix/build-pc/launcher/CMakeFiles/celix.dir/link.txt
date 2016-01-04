@@ -1,1 +1,0 @@
-/usr/bin/cc  -pthread -D_GNU_SOURCE -std=gnu99 -Wall  -g  -pthread  CMakeFiles/celix.dir/private/src/main.c.o  -o celix -rdynamic ../framework/libcelix_framework.so -lcurl ../utils/libcelix_utils.so -lm -lpthread -luuid -lz -lcurl -Wl,-rpath,/home/marcojansen/workspace/crosscompiling/celix/build-pc/framework:/home/marcojansen/workspace/crosscompiling/celix/build-pc/utils 

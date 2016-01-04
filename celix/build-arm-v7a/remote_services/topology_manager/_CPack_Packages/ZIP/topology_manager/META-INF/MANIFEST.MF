@@ -1,6 +1,0 @@
-Bundle-SymbolicName: apache_celix_rs_topology_manager
-Bundle-Name: Apache Celix RS Topology Manager
-Bundle-Version: 0.0.2
-Manifest-Version: 1.0
-Bundle-Activator: topology_manager
-Private-Library: topology_manager

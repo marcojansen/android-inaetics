@@ -1,1 +1,0 @@
-/home/marcojansen/workspace/crosscompiling/compiled/arm/celix/share/celix/bundles/dm_shell.zip

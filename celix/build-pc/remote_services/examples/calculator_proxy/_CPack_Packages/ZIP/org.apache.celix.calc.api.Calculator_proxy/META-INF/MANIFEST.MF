@@ -1,5 +1,0 @@
-Bundle-SymbolicName: apache_celix_remoting_calculator_proxy
-Bundle-Version: 0.0.1
-Manifest-Version: 1.0
-Bundle-Activator: org.apache.celix.calc.api.Calculator_proxy
-Private-Library: org.apache.celix.calc.api.Calculator_proxy

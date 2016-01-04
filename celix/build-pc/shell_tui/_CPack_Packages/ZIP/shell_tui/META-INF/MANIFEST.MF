@@ -1,6 +1,0 @@
-Bundle-SymbolicName: apache_celix_shell_tui
-Bundle-Name: Apache Celix Shell TUI
-Bundle-Version: 1.0.0
-Manifest-Version: 1.0
-Bundle-Activator: shell_tui
-Private-Library: shell_tui

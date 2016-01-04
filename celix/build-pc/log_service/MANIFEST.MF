@@ -1,6 +1,0 @@
-Bundle-SymbolicName: apache_celix_log_service
-Bundle-Name: Apache Celix Log Service
-Bundle-Version: 1.0.0
-Manifest-Version: 1.0
-Bundle-Activator: log_service
-Private-Library: log_service

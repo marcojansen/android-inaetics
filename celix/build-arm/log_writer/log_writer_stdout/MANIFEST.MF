@@ -1,6 +1,0 @@
-Bundle-SymbolicName: apache_celix_log_writer
-Bundle-Name: Apache Celix Log Writer
-Bundle-Version: 1.0.0
-Manifest-Version: 1.0
-Bundle-Activator: log_writer
-Private-Library: log_writer

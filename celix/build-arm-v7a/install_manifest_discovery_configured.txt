@@ -1,1 +1,0 @@
-/home/marcojansen/workspace/crosscompiling/compiled/arm-v7a/celix/share/celix/bundles/discovery_configured.zip

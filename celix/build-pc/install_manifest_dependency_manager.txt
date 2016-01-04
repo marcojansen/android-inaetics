@@ -1,6 +1,0 @@
-/home/marcojansen/workspace/crosscompiling/compiled/pc/celix/include/celix/dependency_manager/dm_activator_base.h
-/home/marcojansen/workspace/crosscompiling/compiled/pc/celix/include/celix/dependency_manager/dm_component.h
-/home/marcojansen/workspace/crosscompiling/compiled/pc/celix/include/celix/dependency_manager/dm_dependency_manager.h
-/home/marcojansen/workspace/crosscompiling/compiled/pc/celix/include/celix/dependency_manager/dm_service_dependency.h
-/home/marcojansen/workspace/crosscompiling/compiled/pc/celix/include/celix/dependency_manager/dm_info.h
-/home/marcojansen/workspace/crosscompiling/compiled/pc/celix/lib/libdependency_manager.a
