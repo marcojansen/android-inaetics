@@ -27,6 +27,7 @@ Then set your NDK_HOME variable to the folder where the ndk is located.
 4. To crosscompile demonstrator run the demonstrator.sh (Requires demonstrator source to be in the same folder as the script!)
 
 Correct order in short:    
+
 1. `toolchains.sh`  
 2. `libraries.sh`  
 3. `celix.sh`  
@@ -34,6 +35,7 @@ Correct order in short:
 
 All the crosscompiled libraries will be located in compiled/architecture. The downloaded libraries used for crosscompiling can be found in libs. the used toolchains can be found in toolchain and toolchain64.
 
-PS.  Make sure to execute all the scripts from the directory they're located.  
-PS2. You have to download the celix and demonstrator source yourself and place it in the same folder as the scripts.  
-PS3. armv8a is experimental
+---
+
+\* Make sure to execute all the scripts from the directory they're located.   
+\* armv8a is experimental
